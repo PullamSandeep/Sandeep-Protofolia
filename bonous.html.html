@@ -1,0 +1,239 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/1d61437999.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+    <div id="mainContainer" class="light-theme">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 fixed-top">
+            <a class="navbar-brand font-weight-bold" href="#sectionHome">Pullam sandeep</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sectionHome">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sectionAbout">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sectionProjects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sectionSkills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sectionContact">Contact</a></li>
+                </ul>
+
+                <button id="themeBtn" class="theme-button">
+                    Dark Mode
+                </button>
+            </div>
+        </nav>
+
+
+        <div id="sectionHome" class="py-5 home-section text-white">
+            <div class="container">
+                <div class="row align-items-center text-center">
+                    <div class="col-lg-12">
+                        <h1 class="display-4 font-weight-bold">
+                            Hello, I'm <span class="span-name">Sandeep</span>
+                        </h1>
+                        <p class="lead mt-3">Full Stack Developer • React & Node Specialist</p>
+
+                        <p class="lead mt-3">
+                            I am a passionate Full Stack MERN Developer with hands-on experience in building dynamic,
+                            scalable, and user-friendly web applications. I enjoy transforming ideas into real-world
+                            solutions using React, Node.js, Express, and SQLite.
+                        </p>
+
+                        <a href="#sectionProjects" class="btn home-btn mt-3">View Projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="sectionAbout" class="p-5 about-section">
+            <div class="container">
+
+                <h2 class="text-center mb-4 title">About Me</h2>
+
+                <div id="aboutCarousel" class="carousel slide p-5" data-ride="carousel" data-interval="2000">
+
+                    <ol class="carousel-indicators">
+                        <li data-target="#aboutCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#aboutCarousel" data-slide-to="1"></li>
+                        <li data-target="#aboutCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active text-center px-4">
+                            <h4 class="mb-3 font-weight-bold">Who Am I?</h4>
+                            <p class="lead">
+                                A passionate Full Stack Developer skilled in React.js, Node.js, Express.js, and MongoDB.
+                            </p>
+                        </div>
+
+                        <div class="carousel-item text-center px-4">
+                            <h4 class="mb-3 font-weight-bold">Skills</h4>
+                            <p class="lead">HTML • CSS • JavaScript • React.js • Node.js • Express • MongoDB • SQLite</p>
+                        </div>
+
+                        <div class="carousel-item text-center px-4">
+                            <h4 class="mb-3 font-weight-bold">Projects</h4>
+                            <p class="lead">
+                                Notes App (MERN)<br>
+                                Employee Tracker (Internal)<br>
+                                Routix Delivery Manager (Development)
+                            </p>
+                        </div>
+
+                        <div class="carousel-item text-center px-4">
+                            <h4 class="mb-3 font-weight-bold">Experience</h4>
+                            <p class="lead">
+                                ASE Intern — Worked on dashboards, authentication systems, and full-stack apps.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <a class="carousel-control-prev" href="#aboutCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+
+                    <a class="carousel-control-next" href="#aboutCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <div id="sectionProjects" class="py-5 projects-section">
+            <div class="container">
+                <h2 class="text-center mb-4 title">Projects</h2>
+
+                <div class="row">
+
+
+
+                    <div class="col-md-4 mb-4">
+                        <div class="project-card p-4">
+                            <h4>Employee Tracker (MERN)</h4>
+                            <p>Admin dashboard to track employees clock-in/clock-out activity.(Only for Employees)</p>
+                            <p class="mt-3">
+                                <a href="https://nxtwave-frontend-eight.vercel.app/login" target="_blank">🔗 published link</a><br>
+                                <a href="https://github.com/bhaskar20000/employee_tracker_frontend" target="_blank">📦 GitHub Frontend</a><br>
+                                <a href="https://github.com/bhaskar20000/employee_tracker_backend" target="_blank">🛠 GitHub Backend</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="project-card p-4">
+                            <h4>Notes App (MERN)</h4>
+                            <p>A Notes Application with JWT Authentication & theme functionality.</p>
+                            <p class="mt-3">
+                                <a href="https://notes-frontend-jun.vercel.app/login" target="_blank">🔗 published link</a><br>
+                                <a href="https://github.com/bhaskar20000/notesFrontendJun" target="_blank">📦 GitHub Frontend</a><br>
+                                <a href="https://github.com/bhaskar20000/notesBackJun" target="_blank">🛠 GitHub Backend</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="project-card p-4">
+                            <h4>Routix Delivery Manager</h4>
+                            <p>Real-time delivery management app for customers, drivers & admins.(In Development)</p>
+                            <p class="mt-3">
+                                <a href="https://routix-frontend.vercel.app/" target="_blank">🔗 published link</a><br>
+                                <a href="https://github.com/bhaskar20000/QuickDrop_routix" target="_blank">📦 GitHub Repository</a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="sectionSkills" class="py-5 skills-section">
+            <div class="container">
+                <h2 class="text-center mb-4 title">Skills</h2>
+
+                <div class="row justify-content-center">
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <div class="skill-box">HTML</div>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <div class="skill-box">CSS</div>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <div class="skill-box">JavaScript</div>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <div class="skill-box">React.js</div>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <div class="skill-box">Node.js</div>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <div class="skill-box">SQLite</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="https://drive.google.com/file/d/1OieN2k9JBja4QcZgK_dkqtK_XoRnb0UI/view?usp=sharing" class="btn btn-primary px-4 py-2" target="_blank">
+                View Resume
+            </a>
+        </div>
+
+
+        <div id="sectionContact" class="py-5 contact-section">
+            <div class="container text-center">
+                <h2 class="title mb-3">Contact</h2>
+
+                <p class="lead">Email:
+                    <a href="mailto:yourmail@example.com"><b>pullam.sandeep@gmail.com</b></a>
+                </p>
+                <p class="lead">Phone:
+                    <a href="tel:+91XXXXXXXXXX"><b>+91 7995263866</b></a>
+                </p>
+
+                <div class="social-icons mt-4">
+
+                    <a href="https://www.linkedin.com/in/sandeep-pullam-96a45136a/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                    <a href="https://github.com/PullamSandeep" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="py-3 text-center bg-dark text-white">
+            © 2025 sandeep. All Rights Reserved.
+        </div>
+
+    </div>
+      <script src="bonous.js"></script>
+</body>
+
+</html>

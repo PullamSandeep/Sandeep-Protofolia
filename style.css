@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    padding-top: 59px;
+    font-family: "Roboto", sans-serif;
+    background-color: #ffffff;
+    color: #2c3e50;
+}
+
+.light-theme {
+    background-color: #ffffff;
+    color: #2c3e50;
+}
+
+.light-theme .navbar {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8) !important;
+    box-shadow: 0px 2px 15px #94a3b833;
+}
+
+.light-theme .home-section {
+    background-color: #ffffff !important;
+    color: #1e293b !important;
+}
+
+.light-theme .home-section h1,
+.light-theme .home-section .lead {
+    color: #1e293b !important;
+}
+
+.light-theme .about-section {
+    background: linear-gradient(to bottom, #ffffff, #f8fafc);
+    color: #374151;
+}
+
+.light-theme .projects-section {
+    background: linear-gradient(to bottom, #ffffff, #f1f5f9);
+}
+
+.light-theme .project-card {
+    background: #ffffff;
+    border-radius: 12px;
+    color: #374151;
+    box-shadow: 0px 4px 12px #2563eb1a;
+    border-left: 4px solid #3b82f6;
+    border: 1px solid #e2e8f0;
+}
+
+.light-theme .skills-section {
+    background: linear-gradient(to right, #f0f9ff, #e0f2fe);
+    color: #374151;
+}
+
+.light-theme .skill-box {
+    background: #ffffff;
+    text-align: center;
+    padding: 15px 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 0px 3px 10px #2563eb1a;
+    border: 2px solid #e2e8f0;
+    color: #374151;
+}
+
+.light-theme .contact-section {
+    background: linear-gradient(to bottom, #f0f9ff, #e0f2fe);
+    color: #374151;
+}
+
+.light-theme .home-btn {
+    background: linear-gradient(135deg, #2563eb, #1d4ed8);
+    color: #ffffff !important;
+    box-shadow: 0px 4px 15px #2563eb4d;
+}
+
+.light-theme .span-name {
+    color: #1d4ed8;
+    text-shadow: 0px 2px 4px #2563eb4d;
+}
+
+.light-theme .theme-button {
+    border-radius: 6px;
+    font-weight: 600;
+    background-color: #1c327a;
+    color: #ffffff;
+    padding: 8px;
+    border: none;
+}
+
+.light-theme .social-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    color: #1d4ed8;
+    background: #ffffff;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 2px solid #3b82f6;
+    margin: 8px;
+    font-size: 28px;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+.light-theme .social-link:hover {
+    background: #1d4ed8;
+    color: white;
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 20px #2563eb3a;
+}
+
+.dark-theme {
+    background: #0f172a !important;
+    color: #e2e8f0 !important;
+}
+
+.dark-theme .navbar {
+    background: linear-gradient(135deg, #1e293b, #334155) !important;
+    box-shadow: 0px 2px 15px #ffffff0d;
+}
+
+.dark-theme .home-section {
+    background: linear-gradient(135deg, #0f172a, #1e293b) !important;
+    color: #e2e8f0 !important;
+}
+
+.dark-theme .home-section h1,
+.dark-theme .home-section .lead {
+    color: #e2e8f0 !important;
+}
+
+.dark-theme .home-btn {
+    background: linear-gradient(135deg, #3b82f6, #60a5fa) !important;
+    color: #ffffff !important;
+    box-shadow: 0px 4px 15px #3b82f64d;
+}
+
+.dark-theme .about-section {
+    background: linear-gradient(to bottom, #1e293b, #0f172a);
+    color: #e2e8f0;
+}
+
+.dark-theme .projects-section {
+    background: linear-gradient(to bottom, #1e293b, #0f172a);
+}
+
+.dark-theme .project-card {
+    background: linear-gradient(135deg, #334155, #475569);
+    border-radius: 12px;
+    color: #e2e8f0;
+    box-shadow: 0px 5px 15px #ffffff0d;
+    border-left: 4px solid #60a5fa;
+}
+
+.dark-theme .skills-section {
+    background: linear-gradient(to bottom, #1e293b, #0f172a) !important;
+    color: #e2e8f0 !important;
+}
+
+.dark-theme .skill-box {
+    background: linear-gradient(135deg, #334155, #475569);
+    text-align: center;
+    padding: 15px 5px;
+    border-radius: 8px;
+    font-weight: bold;
+    border: 2px solid #475569;
+    color: #e2e8f0;
+}
+
+.dark-theme .contact-section {
+    background: linear-gradient(to bottom, #1e293b, #0f172a) !important;
+    color: #e2e8f0;
+}
+
+.dark-theme .home-btn {
+    background: linear-gradient(135deg, #60a5fa, #3b82f6);
+    color: #ffffff;
+}
+
+.dark-theme .span-name {
+    color: #60a5fa;
+    text-shadow: 0px 2px 4px #60a5fa4d;
+}
+
+.dark-theme .social-link {
+    color: #60a5fa;
+    background: #1e293b;
+
+    border-radius: 50%;
+    margin: 8px;
+    border: 2px solid #60a5fa;
+    font-size: 28px;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+.dark-theme .social-link:hover {
+    background: #60a5fa;
+    color: #0f172a;
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 20px #60a5fa3a;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    margin: 0px 10px;
+    color: #ffffff !important;
+}
+
+.home-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.home-section h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.home-section .lead {
+    font-size: 22px;
+    margin-bottom: 32px;
+}
+
+.home-btn {
+    border-radius: 8px;
+    padding: 12px 30px;
+    font-weight: 600;
+    border: none;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.about-section,
+.projects-section,
+.skills-section,
+.contact-section {
+    padding: 80px 0px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 48px;
+}
+
+.project-card {
+    height: 100%;
+    padding: 30px 20px;
+}
+
+.skill-box {
+    font-size: 18px;
+}
+
+.skill-box {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.light-theme .skill-box:hover {
+    transform: translateY(-6px) scale(1.05);
+    box-shadow: 0px 8px 20px #2563eb33;
+    border-color: #3b82f6;
+}
+
+.dark-theme .skill-box:hover {
+    transform: translateY(-6px) scale(1.05);
+    box-shadow: 0px 8px 20px #60a5fa44;
+    border-color: #60a5fa;
+}
+
+.light-theme .carousel-control-prev-icon,
+.light-theme .carousel-control-next-icon {
+    filter: invert(1);
+}
+
+.dark-theme .carousel-control-prev-icon,
+.dark-theme .carousel-control-next-icon {
+    filter: invert(0);
+}
